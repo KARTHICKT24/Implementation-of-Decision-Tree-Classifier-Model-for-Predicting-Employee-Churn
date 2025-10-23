@@ -57,8 +57,6 @@ dt.fit(x_train,y_train)
 y_pred=dt.predict(x_test)
 y_pred
 
-print("Name : Pragatheeshraaj D")
-print("Register No.: 212224230199")
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
